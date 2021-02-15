@@ -1,3 +1,4 @@
+FROM quay.io/redhattraining/httpd-parent
 EXPOSE 8080
 
 LABEL io.k8s.description="A basic Apache HTTP Server child image, uses ONBUILD" \
